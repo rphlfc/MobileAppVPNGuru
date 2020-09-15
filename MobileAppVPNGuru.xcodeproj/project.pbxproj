@@ -13,6 +13,9 @@
 		64E7E516250ED5200052064E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E7E515250ED5200052064E /* Assets.xcassets */; };
 		64E7E519250ED5200052064E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E7E518250ED5200052064E /* Preview Assets.xcassets */; };
 		64E7E51C250ED5200052064E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E7E51A250ED5200052064E /* LaunchScreen.storyboard */; };
+		64E7E524250EE7030052064E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7E523250EE7030052064E /* ProfileView.swift */; };
+		64E7E526250EE7160052064E /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7E525250EE7160052064E /* MenuItemView.swift */; };
+		64E7E529250EE74A0052064E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64E7E528250EE74A0052064E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		64E7E518250ED5200052064E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64E7E51B250ED5200052064E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64E7E51D250ED5200052064E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E7E523250EE7030052064E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		64E7E525250EE7160052064E /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		64E7E528250EE74A0052064E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		64E7E503250ED51E0052064E = {
 			isa = PBXGroup;
 			children = (
+				64E7E528250EE74A0052064E /* README.md */,
 				64E7E50E250ED51F0052064E /* MobileAppVPNGuru */,
 				64E7E50D250ED51F0052064E /* Products */,
 			);
@@ -56,6 +63,7 @@
 		64E7E50E250ED51F0052064E /* MobileAppVPNGuru */ = {
 			isa = PBXGroup;
 			children = (
+				64E7E527250EE7330052064E /* Views */,
 				64E7E50F250ED51F0052064E /* AppDelegate.swift */,
 				64E7E511250ED51F0052064E /* SceneDelegate.swift */,
 				64E7E513250ED51F0052064E /* ContentView.swift */,
@@ -73,6 +81,15 @@
 				64E7E518250ED5200052064E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64E7E527250EE7330052064E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64E7E523250EE7030052064E /* ProfileView.swift */,
+				64E7E525250EE7160052064E /* MenuItemView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +151,7 @@
 			files = (
 				64E7E51C250ED5200052064E /* LaunchScreen.storyboard in Resources */,
 				64E7E519250ED5200052064E /* Preview Assets.xcassets in Resources */,
+				64E7E529250EE74A0052064E /* README.md in Resources */,
 				64E7E516250ED5200052064E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,9 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E7E524250EE7030052064E /* ProfileView.swift in Sources */,
 				64E7E510250ED51F0052064E /* AppDelegate.swift in Sources */,
 				64E7E512250ED51F0052064E /* SceneDelegate.swift in Sources */,
 				64E7E514250ED51F0052064E /* ContentView.swift in Sources */,
+				64E7E526250EE7160052064E /* MenuItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +310,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MobileAppVPNGuru/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MobileAppVPNGuru/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +331,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MobileAppVPNGuru/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MobileAppVPNGuru/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
